@@ -1,11 +1,14 @@
 Package: golfr
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Group Assignment Tool
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Hannah Kim <hannahminji@gmail.com>
+Maintainer: Collin Nolte <noltecollin@grinnell.edu>
+Description: This package provides an efficient algorithm to generate group assignments for classroom settings while minimizing repeated pairings across multiple rounds.
+The algorithm uses matrix operations and a conflict score metric to optimize group configurations, offering educators a tool to reduce manual effort in student group allocation.
+Functions for generating initial group assignments, updating cumulative interaction matrices, and calculating conflict scores are included.
+The package aims to streamline the group assignment process and enhance fairness in classroom collaborations.
+Future work includes extending the algorithm for additional criteria, such as balancing skill levels or performance metrics.
 License: GPL-3 | file LICENSE
 Encoding: UTF-8
 LazyData: true
