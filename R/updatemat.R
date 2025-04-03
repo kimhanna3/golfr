@@ -14,7 +14,7 @@
 #' @examples
 #' n_students <- 4
 #' student_data <- GenerateData(n_students)
-#' initial_matrix <- initmat(student_data$Student)
+#' initial_matrix <- initmat(student_data[[Student]])
 #' group_assignments <- c(1, 1, 2, 2)  # Example group assignments
 #'
 #' updated_matrix <- updatemat(initial_matrix, group_assignments, student_data$Student)

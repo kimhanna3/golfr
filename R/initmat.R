@@ -8,7 +8,7 @@
 #' @examples
 #' # Initial matrix 5x5
 #' data <- GenerateData(5)
-#' initmat(data$Student)
+#' initmat(data[[Student]])
 initmat <- function(students) {
   n <- length(students)
   initmat <- matrix(0, nrow = n, ncol = n, dimnames = list(students, students))

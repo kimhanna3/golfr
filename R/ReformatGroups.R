@@ -28,7 +28,7 @@ ReformatGroups <- function(groups_df) {
   reformatted_df <- as.data.frame(t(rounds_only))
 
   # Assign proper row and column names
-  colnames(reformatted_df) <- groups_df$Student
+  colnames(reformatted_df) <- groups_df[[Student]]
   rownames(reformatted_df) <- colnames(rounds_only)
 
   return(reformatted_df)
