@@ -66,3 +66,9 @@ MakeGroups2 <- function(df, students_per_group, iterations, student_col) {
     conflict_scores = conflict_scores
   ))
 }
+
+# example execution
+# df <- GenerateData(9)
+# results <- MakeGroups(df, 3, 3, student_col = "Student")
+# results$groups           # Group assignments
+# results$conflict_scores  # Conflict score for each round
