@@ -33,7 +33,7 @@ MakeGroups2 <- function(df, students_per_group, iterations, student_col) {
 
       # Check for overlap violations
       all_groups <- split(shuffled_students, group_assignments)
-      group_check_results <- sapply(all_groups, testoverlap)
+      group_check_results <- sapply(all_groups, nooverlap)
 
       if (all(group_check_results)) {
         valid_assignment_found <- TRUE
